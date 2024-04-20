@@ -1,0 +1,320 @@
+ 
+ *{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+ }
+
+ #wrapper{
+    /* Kích thước màn hình 1280 x 720*/
+    width: 100%;
+    height: 100vh;  
+ }
+#header{
+    width: 100%;
+    padding: 0px 30px;
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu{
+    list-style: none;
+    display: flex;
+}
+#menu .item{
+    margin: 0px 25px;
+}
+#menu .item a{
+    color: #626A67;
+    text-decoration: none;
+}
+#actions{
+    display: flex;
+}
+#actions .item{
+    margin-left: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+#banner{
+    width: 100%;
+    background-image: url(../mage/slider_1.webp);
+    height: 463px;
+    margin-top: 40px;
+    display: flex;
+    padding: 0px 133px;
+    position: relative;
+}
+
+#banner .box-left ,#banner .box-right{
+   width: 50%; 
+}
+
+#banner .box-left h2 {
+    font-size: 48px;
+    margin-top:10px;
+    color: black;
+}
+
+
+
+#banner .box-left button{
+    width: 191px;
+    height: 40px;
+    margin-top: 41px;
+    background: #1d1a1a;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+#banner .box-left button:hover{
+    background: orange;
+}
+
+#banner .box-right{
+    padding-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .box-right img {
+    margin:0px 10px;
+    animation: animation 3s infinite linear;
+}
+
+
+#banner .box-right img:nth-child(1)
+{
+    animation-delay:0.5s;
+}
+#banner .box-right img:nth-child(2)
+{
+    animation-delay: 1s;
+}
+
+@keyframes animation{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform:translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+.to-bottom{
+    position: absolute;
+    color: red;
+    bottom: -40px;
+    left:50%;
+    transform: translateX(-50px);
+}
+/*Sản Phẩm*/
+#wrapper
+{
+            max-width: 1170px;
+            margin: 0 auto;
+}
+headline
+{
+            text-align: center;
+            margin: 40px 0px;
+}
+h3
+{
+            font-size: 18px;
+            color: burlywood;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            border: 1px solid #bebebe;
+            display: inline-block;
+            color: #555;
+            font-weight: 600;
+}
+ul.products
+{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+}
+ul.products li
+{
+            flex-basis: 25%;
+            padding-left: 30px;
+            padding-right: 30px;
+            box-sizing: border-box;
+            margin-bottom: 40px;
+}
+ul.products li img
+{
+            max-width: 100%;
+            height: auto;
+}
+ul.products li .product-top
+{
+            position: relative;
+}
+ ul.products li .product-top .product-thumb
+{
+            display: block;
+}
+ul.products li:hover .product-top .product-thumb img
+{
+            filter: opacity(80%);
+
+}
+
+ul.products li .product-top .product-thumb img
+{
+            display: block;
+}
+ul.products li .product-top a.buy-now
+{
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            background-color: #446084;
+            color:#fff;
+            padding: 15px 0px;
+            position:absolute;
+            bottom: -36px;
+            width: 100%;
+            transition: 0.25s ease-in-out;
+}
+ul.products li:hover a.buy-now
+{
+            bottom: 0px;
+}
+ul.products li.product-info
+{
+            padding: 20px 0px;
+}
+
+ul.products li .product-info a
+{
+            display: block;
+            text-decoration: none;
+
+}
+ul.products li .product-info a.product-cat
+{
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #9e9e9e;
+            padding: 3px 0px;
+}
+ul.products li .product-info a.product-name
+{
+            color: #334862;
+            padding: 3px 0px;
+}
+ul.products li .product-info .product-price
+{
+            color:#111  ;
+            padding: 2px 0px;
+            font-weight: 600;
+}
+<!--Giới thiệu-->
+.title_pase
+{
+text-align: center;
+}
+h1 a
+{
+    color: #111;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+h2 a
+{
+    color: #111;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.content-page p
+{
+    padding:10px 20px;
+    right: 30px;
+}
+p::first-letter
+{
+    font-size: 20px;
+}
+i
+{
+color: #fff;
+font-size: 30px;
+padding-left: 14px;
+padding-top:14px;
+transition: 0.3 ease;
+}
+i:hover
+{
+    color:#ff7200;
+}
+h3{
+    text-align: center;
+}
+
+#footer{
+    width: 100%;
+    background: rgb(0,0,0,0.79);
+    height: 322px;
+    margin-top: 338px;
+    padding: 0px 63px;
+    padding-top: 57px;
+    justify-content:space-around;
+    display: flex;
+}
+
+#footer .box{
+    width: 250px;
+}
+
+#footer .box .quick-menu{
+    margin-top: 40px;
+
+}
+
+#footer .box .quick-menu .item{
+    margin-bottom: 12px;
+
+}
+#footer .box .quick-menu , .item a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer .box from input{
+    width: 294px;
+    height: 42px;
+    background: transparent;
+    padding-left: 20px;
+    color: #fff;
+}
