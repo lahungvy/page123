@@ -1,0 +1,30 @@
+.vungbaongoai
+{
+	border: 6px ridge #fff;
+	width:90%;
+	margin:auto;
+	background-size:200px 200px;
+    padding:10px;
+}
+h1.tieude{
+    text-align: center;
+    color: red;
+    border-bottom: 2px solid #000 ;
+}
+h2{
+    color: red;
+}
+h3{
+    color: #660066;
+    display: inline;
+}
+img{
+    float: left;
+}
+@font-face {
+    font-family:goolelfont;
+    src: url();
+}
+.cls{
+    clear: both;
+}

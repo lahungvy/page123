@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.wrapper{
+    width: 882px;
+    min-height: 200px;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+.wrapper header{
+    height: 250px;
+    background-color:#888;
+    background-image: url(../mage/header.jpg);
+}
+.wrapper .globalnav{
+    height: 40px;
+    background-color:black;
+}
+.wrapper .content{
+    min-height: 200px;
+    background-color: green;
+}
+.wrapper footer{
+    height: 50px;
+    background-color: black;
+}
+.wrapper .recycle, .wrapper .list-content{
+    width: 32%;
+    min-height: 300px;
+    background-color: #666;
+    margin: 5px;
+    float: left;
+}
+.cls{
+    clear: both;
+}
+.wrapper .recycle{
+    background: url(../mage/recycle_title.png) center top no-repeat,url(../mage/recycle_bg.jpg) repeat;
+}
+.recycle+.list-content{
+    background: url(../mage/about_company_h1.jpg) center top no-repeat,url(../mage/badge_services.png) center bottom no-repeat;
+}
+.list-content+.list-content{
+    background: url(../mage/products_services_h2.jpg) center top no-repeat,url(../mage/badge_catalog.png) center bottom no-repeat;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+/* simpleHor */
+nav.simpleHor{
+
+
+}
+nav.simpleHor ul{
+    list-style-type: none ;
+    width: 610px;
+    margin: 0 auto;
+}
+nav.simpleHor li{
+    background-color:black;
+    float: left;
+    width: 100px;
+    border-right: 1px dotted white;
+}
+nav.simpleHor li a{
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    height: 40px;
+}
+
+
+.list-content ul{
+    list-style-image:url(../mage/bigbullet.png) ;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    margin-left: 40px;
+}
+.list-content ul a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    vertical-align: 0.3em;
+}
+nav.simpleHor li a.full{
+    background-color:black;
+    
+}
